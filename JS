@@ -6,3 +6,12 @@ const myAdverb = "quickly";
 // Only change code below this line
 const wordBlanks = myNoun+" "+myAdjective+" "+myVerb+" "+myAdverb ; // Change this line
 // Only change code above this line
+
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];// должно быть 8
